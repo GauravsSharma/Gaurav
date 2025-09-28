@@ -1,0 +1,49 @@
+import React, { useEffect, useState } from 'react'
+import Navbar from './sections/Navbar'
+import Hero from './sections/Hero'
+import Skills from './sections/Skills'
+import SkillsMain from './components/SkillsMain'
+import ReactLenis from 'lenis/react'
+import About from './sections/About'
+import Projects from './sections/Projects'
+import ContactSummary from './sections/ContactSummary'
+import Contact from './sections/Contact'
+import { useProgress } from '@react-three/drei'
+
+const App = () => {
+  const { progress } = useProgress()
+  const [isReady, setIsReady] = useState(false);
+  useEffect(() => {
+    if (progress === 100) {
+      setIsReady(true)
+    }
+  }, [progress])
+  return (
+    <ReactLenis root className='overflow-x-hidden min-h-screen w-screen relative'>
+      {!isReady && <div className='fixed inset-0 z-[999] flex flex-col items-center justify-center bg-black
+      text-white transition-opacity duration-700 font-light
+      '>
+        <p className='mb-4 text-lg tracking-widest animate-pulse'>
+
+          Loading {Math.floor(progress)}%
+        </p>
+        <div className="relative h-1 overflow-hidden rounded w-60 bg-white/20">
+          <div className="absolute top-0  left-0 h-full transition-all duration-300 bg-white" style={{ width: `${progress}%` }}></div></div>
+      </div>}
+      {isReady && <div
+        className={`${isReady ? "opacity-100" : "opacity-0"} transition-opacity duration-1000`}
+      >
+        <Navbar />
+        <Hero />
+        <Skills />
+        <SkillsMain />
+        <About />
+        <Projects />
+        <ContactSummary />
+        <Contact />
+      </div>}
+    </ReactLenis>
+  )
+}
+
+export default App
