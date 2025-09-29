@@ -1,81 +1,63 @@
 // index.js
 export const servicesData = [
   {
-    title: "FullStack Development",
+    title: "Frontend Development",
     description:
-      "Your business deserves a fast, secure, and future-proof digital foundation. I develop custom web apps with clean architecture, optimized databases, and seamless integrations—ensuring reliability at every layer.",
+      "I specialize in building modern, responsive, and user-centric interfaces using the latest technologies. From crafting seamless user journeys to delivering high-performance apps, I ensure design and functionality work hand in hand.",
     items: [
       {
-        title: "Backend Engineering",
+        title: "React.js & Next.js",
         description: "(REST/GraphQL APIs, Microservices, Auth Systems)",
       },
       {
-        title: "Frontend Excellence",
+        title: "Tailwind CSS & ShadCN",
         description: "(React, Vue, TypeScript, Interactive UI/UX)",
       },
       {
-        title: "Database Design",
+        title: "Performance & Accessibility",
         description: "(SQL/NoSQL Optimization, Scalable Structures)",
       },
     ],
   },
   {
-    title: "DevOps & Cloud Solutions",
+    title: "Backend Development",
     description:
-      "Deploying software shouldn't be a gamble. I automate infrastructure, enforce security, and leverage cloud platforms (AWS/Azure) to keep your app running smoothly—24/7, at any scale.",
+      "I build secure, scalable, and efficient backends with Node.js, Express.js, and Django REST Framework—leveraging PostgreSQL and MongoDB for reliable data management and smooth integrations.",
     items: [
       {
-        title: "CI/CD Pipelines",
+        title: "Node.js & Express.js",
         description: "(GitHub Actions, Docker, Kubernetes)",
       },
       {
-        title: "Server Management ",
+        title: "Django REST Framework (DRF)",
         description: "(Linux, Nginx, Load Balancing)",
       },
       {
-        title: "Performance Tuning",
+        title: "PostgreSQL & MongoDB",
         description: "(Caching, Compression, Lighthouse 90+ Scores)",
       },
     ],
   },
   {
-    title: "Security & Optimization",
+    title: "Tools & Workflow",
     description:
-      "Slow or hacked apps destroy trust. I harden security (XSS/SQLI protection, OAuth) and optimize bottlenecks so your app stays fast, safe, and scalable as you grow.",
+      "I streamline development, ensure robust code quality, and follow industry-standard tools and best practices to deliver efficient, scalable solutions.",
     items: [
       {
-        title: "Code Audits",
+        title: "Git/Github & Docker",
         description: "(Refactoring, Tech Debt Cleanup)",
       },
       {
-        title: "Pen Testing",
+        title: "VS Code",
         description: "(Vulnerability Assessments)",
       },
       {
-        title: "SEO Tech Stack",
+        title: "Postman & Figma",
         description: "(SSR, Metadata, Structured Data)",
       },
     ],
   },
-  {
-    title: "Web & Mobile Apps",
-    description:
-      "A clunky interface can sink even the best ideas. I craft responsive, pixel perfect web and mobile apps (React Native/Flutter) that users love—bridging design and functionality seamlessly.",
-    items: [
-      {
-        title: "Cross-Platform Apps",
-        description: "(Single codebase for iOS/Android/Web)",
-      },
-      {
-        title: "PWAs",
-        description: "(Offline mode, Push Notifications)",
-      },
-      {
-        title: "E-Commerce",
-        description: "(Checkout flows, Payment Gateways, Inventory APIs)",
-      },
-    ],
-  },
+ 
 ];
 export const projects = [
   {
@@ -171,11 +153,31 @@ export const projects = [
   },
 ];
 export const socials = [
-  { name: "Instagram", href: "https://www.instagram.com/ali.sanatidev/reels/" },
+  { name: "Leetcode", href: "https://leetcode.com/u/Gaurav_1607/" },
   {
-    name: "Youtube",
-    href: "https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA",
+    name: "Github",
+    href: "https://github.com/GauravsSharma",
   },
-  { name: "LinkedIn", href: "https://www.linkedin.com/in/ali-sanati/" },
-  { name: "GitHub", href: "https://github.com/Ali-Sanati" },
+  { name: "LinkedIn", href: "https://www.linkedin.com/in/gourav-sharma-ab1660233" },
+  // { name: "GitHub", href: "" },
+];
+export const experienceData = [
+  {
+    title: "FullStack Developer Intern @Unizoy",
+    description:
+      "Worked as Fullstack Developer Intern for 6 months, enhancing authentication/permissions in DRF project 'Sard,' building a medicine inventory system, and developing Strapi APIs with MERN integration for seamless frontend-backend functionality.",
+    items: [
+      {
+        title: "DRF (Python)",
+      },
+      {
+        title: "MERN Stack",
+
+      },
+      {
+        title: "Nest.js",
+
+      },
+    ],
+  },
 ];

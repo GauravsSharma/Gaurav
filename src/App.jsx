@@ -9,6 +9,7 @@ import Projects from './sections/Projects'
 import ContactSummary from './sections/ContactSummary'
 import Contact from './sections/Contact'
 import { useProgress } from '@react-three/drei'
+import Experience from './sections/Experience'
 
 const App = () => {
   const { progress } = useProgress()
@@ -38,6 +39,7 @@ const App = () => {
         <Skills />
         <SkillsMain />
         <About />
+        <Experience/>
         <Projects />
         <ContactSummary />
         <Contact />
