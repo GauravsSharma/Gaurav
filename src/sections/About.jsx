@@ -4,12 +4,12 @@ import AnimatedTextLines from '../components/AnimatedTextLines'
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 const About = () => {
-    const aboutText = `Obsessed with building fast, intuitive apps—from pixel-perfect React UIs to bulletproof serverless backends. Every line of code is a promise: quality that users feel.
+    const aboutText = `I’m a full-stack developer obsessed with turning real problems into clean, performant products. From pixel-perfect frontends in Next.js to robust Node.js backends with Redis caching and smart rate limiting — I build systems that don’t just work, they scale.
   When I’m not shipping:
-⚡️ Open-sourcing my latest experiment (or hacking on yours)
-🎥 Teaching devs on Twitch/YouTube—because rising tides lift all ships
-🧗 Rock climbing (problem-solving with real stakes)
-🎸 Strumming chords while CI pipelines pass (multitasking at its finest)`;
+💡 Solving DSA problems (350+ and counting)
+🚀 Improving performance and system design
+🧠 Learning deeper backend architecture and scalability patterns
+🛠 Turning side projects into serious products`;
 const imageRef = useRef(null)
 useGSAP(()=>{
 gsap.to('#about',{

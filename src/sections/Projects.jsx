@@ -103,7 +103,10 @@ const Projects = () => {
               className="absolute inset-0 hidden md:block duration-200 bg-black -z-10 clip-path"></div>
             <div className='flex justify-between px-5 sm:px-10 items-center text-black transition-all duration-500 md:group-hover:px-12 md:group-hover:text-white'>
               <h3 className='lg:text-xl text-lg'>{project.name}</h3>
+              <a  href={project.href} target="_blank" rel="noopener noreferrer">
+          
               <Icon icon="meteor-icons:arrow-up-right" className='md:size-6 size-5' />
+              </a> 
             </div>
             <div className='h-0.5 w-full bg-black/80' />
             <div className='flex px-5 sm:px-10 text-xs leading-loose uppercase transition-all duration-500 md:text-sm  gap-x-5  md:group-hover:px-12'>
