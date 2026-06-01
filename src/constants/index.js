@@ -62,6 +62,22 @@ export const servicesData = [
 export const projects = [
   {
     id: 1,
+    name: "Syntra: AI Powered ChatBot Support",
+    description:
+      "Syntra is an AI powered chatbot which anyone can embed into their website, This SAAS app comes with realy cool features like human in loop escalation, knowledge base, section, Role Based Access (RBA), pricing etc.",
+    href: "https://syntra-one.vercel.app",
+    image: "/assets/projects/syntra.png",
+    bgImage: "/assets/backgrounds/table.jpg",
+    frameworks: [
+      { id: 2, name: "Next.js" },
+      { id: 5, name: "Tailwind CSS" },
+      { id: 3, name: "Node.js" },
+      { id: 4, name: "Supabase" },
+      { id: 1, name: "Gemini API" },
+    ],
+  },
+  {
+    id: 1,
     name: "Riwaz: Online Saree Store",
     description:
       "Build a full-stack, production-ready e-commerce platform (Riwaz) using Next.js (TypeScript), Node.js, Express, MongoDB, and Redis, supporting a complete order lifecycle including Razorpay integration and Cash on Delivery.",
